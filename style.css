@@ -295,3 +295,9 @@ text-transform: capitalize;
     transform: rotate(-225deg);
     transition-delay: calc(0s + 0.35s * .6);
   }
+
+
+
+  .project a div img{
+    height: 100px !important;
+  }
