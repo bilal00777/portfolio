@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+/* 1) header_container section=1 */
+/* 2) common */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  background-color: #13091C;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#24143D, #441585);
+  border-radius: 100px;
+}
+
+
+/* 1) header_container section=1 */
+.header_container{
+    height: 80vh;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    background: radial-gradient(149.09% 82.7% at 72.71% 59.47%, #281745 0%, #170B23 43.69%, #0F0715 85.14%);
+}
+.name_b{
+    font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+background: linear-gradient(183deg, #FFF -126.48%, #999 932.42%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.main_head{
+  
+font-size: 80px;
+font-family: "Philosopher", sans-serif;
+font-weight: 700;
+font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+background: linear-gradient(270deg, #FFF -19.91%, #7433f5 97.6%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: all 1s ease-in;
+}
+.main_head:hover{
+    background: linear-gradient(90deg, #FFF -19.91%, #8A55F7 97.6%);
+    background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.main_head_para{
+    color: #FFF;
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+}
+.photo_div{
+    width: 405px;
+height: 440px;
+flex-shrink: 0;
+border-radius: 23px;
+border: 3px solid #211238;
+
+transform: rotate(5deg);
+background: #0B1014;
+background:#0B1014 url(./img/bilal.png);
+background-position-y: bottom;
+object-fit: cover;
+background-repeat: no-repeat;
+transition: all 0.5s ease-in-out;
+}
+
+.photo_div:hover{
+    transform: rotate(0deg);
+    border: 3px solid #8F5CF8;
+}
+
+.gard_0{
+    background: linear-gradient(270deg, #FFF -19.91%, #5200f5 97.6%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+height: 50px;
+
+}
+
+.skill-card{
+    transition: 0.1s ease-out;
+   
+}
+
+.skill-card:hover{
+    border: 3px solid #8F5CF8;
+}
+
+/* section 2 */
+.quality_services{
+  
+font-size: 54px;
+
+font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+background: linear-gradient(270deg, #FFF -19.91%, #5400fd 97.6%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.quality_services_para{
+    color: #FFF;
+text-align: center;
+
+
+font-family: "Mukta", sans-serif;
+font-weight: 300;
+font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.competencies_my
+{
+ 
+    font-size: 64px;
+  
+font-family: "Jost", sans-serif;
+font-optical-sizing: auto;
+
+font-style: normal;
+font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    background: linear-gradient(270deg, #FFF -9.91%, #8A55F7 90.6%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    } 
+.End_competencies{
+    color: #8750F7;
+
+font-family: "Istok Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+/* 2) common */
+.body{
+    background: radial-gradient(149.09% 82.7% at 72.71% 59.47%, #281745 0%, #170B23 43.69%, #0F0715 85.14%);
+}
+
+
+.header_container_2{
+    display: none;
+    height: 80vh;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    background: radial-gradient(149.09% 82.7% at 72.71% 59.47%, #281745 0%, #170B23 43.69%, #0F0715 85.14%);
+}
+
+
+@media (max-width:786px) {
+.main_head{
+    font-size: 40px;
+}
+    .main_head_para{
+       display: none;
+    }
+    .header_container{
+        display: none;
+    }
+    .header_container_2{
+        display: block;
+    }
+    .dummy_1{
+        display: none;
+    }
+    .branding_d{
+        display: none;
+    }
+}
+
+
+
+.njn {
+    width: 100%; /* Take up the full width of the container */
+    max-width: 260px; /* Limit the maximum width to 320px */
+    margin: 0 auto; /* Center it horizontally */
+    border-radius: 23px;
+    border: 3px solid #211238;
+    transform: rotate(5deg);
+    background: #0B1014;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    overflow: hidden; /* Ensures no content spills out */
+}
+
+
+
+
+
+
+
+
+/* 4) buttom humburger */
+#checkbox {
+    display: none;
+  }
+  
+  .toggle {
+    position: relative;
+    width: 40px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    height: calc(4px * 3 + 11px * 2);
+  }
+  
+  .bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: calc(4px / 2);
+    background: #7b52b9;
+    color: inherit;
+    opacity: 1;
+    transition: none 0.35s cubic-bezier(.5,-0.35,.35,1.5) 0s;
+  }
+  
+  /***** Tornado Animation *****/
+  
+  .bar--top {
+    bottom: calc(50% + 11px + 4px/ 2);
+    transition-property: bottom,transform;
+    transition-delay: calc(0s + 0.35s) * .6;
+  }
+  
+  .bar--middle {
+    top: calc(50% - 4px/ 2);
+    transition-property: opacity,transform;
+    transition-delay: calc(0s + 0.35s * .3);
+  }
+  
+  .bar--bottom {
+    top: calc(50% + 11px + 4px/ 2);
+    transition-property: top,transform;
+    transition-delay: 0s;
+  }
+  
+  #checkbox:checked + .toggle .bar--top {
+    transform: rotate(-135deg);
+    transition-delay: 0s;
+    bottom: calc(50% - 4px/ 2);
+  }
+  
+  #checkbox:checked + .toggle .bar--middle {
+    opacity: 0;
+    transform: rotate(-135deg);
+    transition-delay: calc(0s + 0.35s * .3);
+  }
+  
+  #checkbox:checked + .toggle .bar--bottom {
+    top: calc(50% - 4px/ 2);
+    transform: rotate(-225deg);
+    transition-delay: calc(0s + 0.35s * .6);
+  }
